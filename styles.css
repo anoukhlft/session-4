@@ -4,27 +4,42 @@
 
 html, body {
 	margin: 0;
+	color: purple;
+	font-family: Helvetica, arial;
 }
 
 header, footer {
+	padding:1px;
+	margin-top:0;
+	background-color: purple;
 
 }
+fp,
 
 .centered {
 
 }
 
 header .subtitle {
+	color: white;
+	text-align: center;
 
 }
 
 h1 {
+
+	font-family: Helvetica, arial;
+	color: white;
+	text-align: center;
+	font-variant:small-caps;
+
 
 }
 
 ul {
 	display: flex;
 	flex-wrap: wrap;
+	color: white;
 }
 
 ul li {
@@ -35,11 +50,13 @@ main {
 
 }
 
-section {
+section {	`
+
 
 }
 
 h2 {
+	border-bottom: 1px solid purple;
 
 }
 
@@ -48,14 +65,16 @@ h3 {
 }
 
 p {
+	color: black;
 
 }
 
 .details {
-
+	color: purple;
 }
 
 .object {
+	font-weight:600;
 
 }
 
@@ -64,5 +83,6 @@ p {
 }
 
 footer h2 {
+	color: white;
 
 }
